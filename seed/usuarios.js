@@ -2,9 +2,9 @@ import bcrypt from 'bcrypt';
 
 const usuarios = [
 	{
-		name: "Mauricio",
-        lastname:"Duque Aricapa",
-		email: "Mauricio@m.com",
+		name: "Sebastian",
+        lastname:"Fernandez",
+		email: "sebasminion@gmail.com",
 		confirm: 1,
 		password: bcrypt.hashSync("contrasena", 10),
 	},
