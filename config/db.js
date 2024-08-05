@@ -5,7 +5,7 @@ dotenv.config({path: '.env'})
 // import { noBoolOperatorAliases } from 'sequelize/lib/utils/deprecations';
 
 const db = new Sequelize(process.env.BD_NOMBRE, process.env.BD_USER, process.env.
-    BD_PASS ?? '', {
+    BD_PASS, {
     hots : process.env.BD_HOST,
     port : 3306,
     dialect : 'mysql',
